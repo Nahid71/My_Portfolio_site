@@ -1,0 +1,36 @@
+<header>
+  <!--nav -->
+  <a href="#menu" class="menu-link">
+    <span>toggle menu</span>
+  </a>
+  <nav id="menu" class="panel">
+    <ul>
+      <li>
+        <a href="{% url 'mysite:home' %}" class="active">Home</a>
+      </li>
+      <li>
+        <a href="{% url 'mysite:about' %}">About</a>
+      </li>
+      <li>
+        <a href="{% url 'mysite:skills' %}">Skills</a>
+      </li>
+      <li>
+        <a href="{% url 'mysite:services' %}">Services</a>
+      </li>
+      <li>
+        <a href="{% url 'mysite:portfolio' %}">Portofolio</a>
+      </li>
+      <li>
+        <a href="{% url 'mysite:contact' %}">contact</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- //nav -->
+  <!-- logo -->
+  <div class="logo_wthree">
+    <a href="{% url 'mysite:home' %}">
+      <i class="fas fa-code"></i>
+    </a>
+  </div>
+  <!-- //logo -->
+</header>
