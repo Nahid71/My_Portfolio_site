@@ -100,45 +100,7 @@ header {
     min-height: 100vh;
 }
 
-.agile_banner.bg1 {
-    background: url(../images/banner.jpg) center no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-size: cover;
-}
 
-.agile_banner.bg2 {
-    background: url(../images/bg2.jpg) center no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-size: cover;
-}
-
-.agile_banner.bg3 {
-    background: url(../images/bg3.jpg) center no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-size: cover;
-}
-
-.agile_banner.bg4 {
-    background: url(../images/bg4.jpg) center no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-size: cover;
-}
 
 .banner_text_wthree h1,
 .banner_text_wthree h2 {
