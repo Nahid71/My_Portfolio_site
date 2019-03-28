@@ -1,17 +1,12 @@
-# Django 2 project boilerplate
+# Portfolio site
 
-## Follow the steps below
+## Follow the steps below to run your machine
 
-1. Create your virtual environment and activate
-2. Install latest version of django using `pip install django`
-3. create new project using command below
+1. Create your virtual environment and activate 
+2.` cd portf
+3.  pip install -r requirements.txt
+4. python manage.py makemigrations
+5. python manage.py migrate
 
-`django-admin startproject --template=https://github.com/russell310/myproject/archive/master.zip project_name`
 
-4. Install requirements `pip install -r requirements.txt`
-5. rename `.env.example` to `.env` with your own setup details 
-6. `python manage.py migrate`
-7. `python manage.py runserver`
-
-* For strong SECRET_KEY: https://www.miniwebtool.com/django-secret-key-generator/
-* For Postgresql replace in .env DATABASE_URL = postgres://username:password@localhost:5432/database_name 
+Currently it is running on [Live](https://nahid71.herokuapp.com/)
